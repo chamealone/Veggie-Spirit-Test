@@ -1,0 +1,29 @@
+spirit-veggie-website/
+│
+├── index.html                  ← Landing Page (home)
+├── intro.html                  ← Intro Page (nama user)
+├── quiz.html                   ← Quiz page (dynamic, 20 questions)
+├── result.html                 ← Result page, hasil spirit
+│
+├── css/
+│   └── style.css               ← Global styling
+│
+├── js/
+│   ├── main.js                 ← Logic utama: navigasi halaman, state, data
+│   ├── quiz.js                 ← Logic soal dan kalkulasi spirit
+│   └── result.js               ← Logic hasil dan render
+│
+├── data/
+│   ├── questions.js            ← Semua 20 pertanyaan + tie breaker
+│   └── spiritData.js           ← Deskripsi semua 8 spirit veggie
+│
+├── assets/
+│   ├── images/
+│   │   ├── chame.png
+│   │   ├── spirit_kroot.png
+│   │   ├── icons/...
+│   │   └── ...
+│   └── fonts/
+│       └── fredoka.woff2
+│
+└── README.md                   ← Penjelasan proyek (untuk GitHub)
